@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!-- build:css -->
+
+    <link rel="stylesheet" href="css/fancybox.css">
+    <link rel="stylesheet" href="css/formstyler.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- add new file here -->
+
+    <link rel="stylesheet" href="css/style_basic.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_adapt.css">
+    <!-- endbuild -->
+
+    <!--[if lt IE 10]>
+    <link rel="stylesheet" href="https://rawgit.com/codefucker/finalReject/master/reject/reject.css" media="all" />
+    <script type="text/javascript" src="https://rawgit.com/codefucker/finalReject/master/reject/reject.min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="global-wrapper">
+    <!-- HEADER -->
+    <header class="header">
+      <div class="mbox">
+        <div class="header-wrap">
+          <a class="logo" href="index.html">
+            <img src="images/logo.png" alt="logo">
+          </a>
+          <div class="contacts">
+            <a class="email" href="mailto:alina@mail.ru">alina@mail.ru</a>
+            <a class="phone" href="tel:+79126657777">+7 (912) 665-77-77</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- /HEADER -->
+
+    <!-- MAIN -->
+    <div class="main">
+        <!-- add partials here -->
+		<section class="activation">
+		  <div class="mbox">
+		    <div class="activation-wrap">
+		      <h1>Для активации карты, пройдите подтверждение по смс</h1>
+		      <div class="activation-content">
+		        <form class="activation-form" action="/" method="post">
+		          <div class="form-field">
+		            <input id="phone" type="text" name="phone" placeholder="Введите ваш номер телефона" required />
+		          </div>
+		          <div class="form-field">
+		            <input id="card" type="text" name="card" placeholder="Введите номер карты" required />
+		          </div>
+		          <button type="submit">Активировать</button>
+		        </form>
+		        <div class="production">
+		          <div class="production-row">
+		            <div class="production-item">
+		              <div class="production-pic">
+		                <img src="images/lollipop-icon.png" alt="Lolipop">
+		              </div>
+		              <p>Развлекательные центры</p>
+		            </div>
+		            <div class="production-item">
+		              <div class="production-pic">
+		                <img src="images/cubes-icon.png" alt="Cubes">
+		              </div>
+		              <p>Развивающие игры</p>
+		            </div>
+		            <div class="production-item">
+		              <div class="production-pic">
+		                <img src="images/bear-icon.png" alt="Teddy Bear">
+		              </div>
+		              <p>Игрушки</p>
+		            </div>
+		          </div>
+		          <div class="production-row">
+		            <div class="production-item">
+		              <div class="production-pic">
+		                <img src="images/book-icon.png" alt="Book">
+		              </div>
+		              <p>Детская литература</p>
+		            </div>
+		            <div class="production-item">
+		              <div class="production-pic">
+		                <img src="images/boot-icon.png" alt="Boot">
+		              </div>
+		              <p>Детская обувь</p>
+		            </div>
+		            <div class="production-item">
+		              <div class="production-pic">
+		                <img src="images/body-icon.png" alt="Body">
+		              </div>
+		              <p>Детская одежда</p>
+		            </div>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		  <a class="button-right" href="#">Преимущества карты</a>
+		</section>
+    </div>
+    <!-- /MAIN -->
+
+    <div class="hidden-block">
+    
+        <div id="call_success">
+            <div class="call-success">
+                 <div class="call_success">
+                     <div class="call-title">Спасибо за заявку!</div>
+                     <div class="call-subtitle">Мы свяжемся с Вами в ближайшее время</div>
+                 </div>
+            </div>
+        </div>
+    
+        <div id="call-popup">
+            <form action="ajax.php" name="" class="contact-form">
+                <div class="contact-form-title">
+                    <h5>Lorem ipsum dolor.</h5>
+                </div>
+                <div class="contact-form-row cfix">
+                    <div class="contact-form-item">
+                        <div class="contact-form-item-input form_row">
+                            <div class="form_input">
+                                <input type="text" name="contact_name" required="required" value="" placeholder="Ваше Имя">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-item">
+                        <div class="contact-form-item-input form_row">
+                            <div class="form_input">
+                                <input type="text" name="contact_tel" value="" required="required" placeholder="Ваш номер" class="tel-mask">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-row cfix">
+                    <div class="contact-form-item">
+                        <button type="submit" class="contact-submit">
+                            <span>Отправить заявку</span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer_placeholder"></div>
+    <footer class="footer">
+      <div class="mbox">
+        <span class="copyright">© KinderEdu, 2016</span>
+      </div>
+    </footer>
+    <!-- FOOTER -->
+    
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/validate_script.js" ></script>
+    
+    <!-- build:js -->
+    <script type="text/javascript" src="js/plagins/device.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.fancybox.pack.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.formstyler.min.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.validate.min.js" ></script>
+    <script type="text/javascript" src="js/plagins/maskInput.js" ></script>
+    <script type="text/javascript" src="js/plagins/slick.js" ></script>
+    
+    <script type="text/javascript" src="js/basic_scripts.js" ></script>
+    <script type="text/javascript" src="js/develop/script.js" ></script>
+    <!-- endbuild -->
+    
+    <!-- /SCRIPTS -->
+
+</div>
+</body>
+</html>

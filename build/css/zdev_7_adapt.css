@@ -1,0 +1,137 @@
+@media screen and (max-width: 1124px) {
+  .activation .activation-wrap h1 {
+    max-width: 600px;
+    line-height: 70px;
+    text-align: center;
+    margin: 0 auto 49px auto; }
+  .activation .activation-wrap .activation-content {
+    max-width: none; }
+    .activation .activation-wrap .activation-content .activation-form {
+      margin: 0 auto 191px auto;
+      max-width: 360px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -moz-box-orient: vertical;
+      -moz-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      .activation .activation-wrap .activation-content .activation-form .form-field {
+        margin-bottom: 15px; }
+    .activation .activation-wrap .activation-content .production {
+      max-width: 900px;
+      margin: 0 auto; } }
+
+@media screen and (max-width: 992px) {
+  .activation .activation-wrap .activation-content .production {
+    max-width: 870px; } }
+
+@media screen and (max-width: 920px) {
+  .header {
+    margin-bottom: 80px; }
+  .activation {
+    margin-bottom: 80px; }
+    .activation .activation-wrap .activation-content .activation-form {
+      margin-bottom: 80px; }
+    .activation .activation-wrap .activation-content .production .production-row {
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -moz-box-orient: vertical;
+      -moz-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      .activation .activation-wrap .activation-content .production .production-row .production-item {
+        width: 277px;
+        margin-bottom: 15px; } }
+
+@media screen and (max-width: 767px) {
+  .activation .activation-wrap h1 {
+    max-width: 479px; } }
+
+@media screen and (max-width: 666px) {
+  .header .header-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .header .header-wrap .logo {
+      margin: 0 0 23px 0; }
+  .activation .activation-wrap h1 {
+    font-size: 36px;
+    line-height: 60px; }
+  .activation .button-right {
+    top: 120px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    -moz-border-radius-topright: 0;
+    border-top-right-radius: 0;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-left-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    border-bottom-right-radius: 10px; }
+  .footer {
+    text-align: center; }
+    .footer span {
+      margin-left: 0; } }
+
+@media screen and (max-width: 440px) {
+  .header .header-wrap .contacts {
+    width: 100%;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+  .activation .activation-wrap .activation-content .activation-form .form-field input {
+    width: 100%; }
+  .activation .button-right {
+    max-width: 300px; } }
+
+@media screen and (max-width: 405px) {
+  .header .header-wrap .contacts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .header .header-wrap .contacts a {
+      margin-bottom: 15px; }
+      .header .header-wrap .contacts a:last-child {
+        margin-bottom: 0; }
+  .activation .activation-wrap h1 {
+    font-size: 28px;
+    line-height: 43px; }
+  .activation .activation-wrap .activation-content .activation-form .form-field input {
+    font-size: 17px; }
+  .activation .button-right {
+    top: 152px; } }
+
+@media screen and (max-width: 322px) {
+  .activation .activation-wrap h1 {
+    font-size: 27px; } }
